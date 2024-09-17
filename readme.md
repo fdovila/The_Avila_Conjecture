@@ -4,11 +4,9 @@
 fba13@ic.ac.uk, favila@uc.cl
 Imperial College London, UK
 
----
-
 ### **Abstract**
 
-We propose the **Avila-Conjecture**, a novel hypothesis suggesting that quantum entanglement between particles across a black hole's event horizon allows information about the black hole's interior to be indirectly accessible from the outside universe without violating causality or the no-communication theorem. By developing a comprehensive mathematical framework that combines quantum field theory in curved spacetime, entanglement entropy, the holographic principle, and concepts from quantum gravity—including connections to loop quantum gravity and causal dynamical triangulations—we demonstrate how unitarity is preserved in black hole evaporation processes. We also explore potential experimental implications and provide detailed calculations showing how information is encoded in Hawking radiation correlations. This conjecture offers a potential resolution to the black hole information paradox and provides insights into unifying quantum mechanics with general relativity.
+We propose the **Avila-Conjecture**, a novel hypothesis suggesting that quantum entanglement between particles across a black hole's event horizon allows information about the black hole's interior to be indirectly accessible from the outside universe without violating causality or the no-communication theorem. By developing a comprehensive mathematical framework that combines quantum field theory in curved spacetime, entanglement entropy, the holographic principle, and concepts from quantum gravity—including connections to loop quantum gravity and causal dynamical triangulations—we demonstrate how unitarity is preserved in black hole evaporation processes. We explore potential experimental implications, provide detailed calculations showing how information is encoded in Hawking radiation correlations, and discuss how the conjecture avoids violations of fundamental physical principles. This conjecture offers a potential resolution to the black hole information paradox and provides insights into unifying quantum mechanics with general relativity.
 
 ---
 
@@ -18,7 +16,7 @@ The incompatibility between quantum mechanics (QM) and general relativity (GR) r
 
 In this paper, we introduce the **Avila-Conjecture**, proposing that quantum entanglement between particles across the event horizon enables information about the black hole's interior to be indirectly reflected in the properties of particles outside the black hole. This conjecture aims to reconcile the principles of QM and GR by demonstrating that information is not destroyed but rather encoded in quantum correlations accessible from outside the event horizon.
 
-Furthermore, we explore the quantum gravity implications of the Avila-Conjecture, connecting it to established frameworks such as loop quantum gravity and causal dynamical triangulations, thereby providing a more comprehensive understanding of spacetime and information in extreme gravitational scenarios. We also discuss potential experimental tests and observations that could support or refute the conjecture.
+Furthermore, we explore the quantum gravity implications of the Avila-Conjecture, connecting it to established frameworks such as loop quantum gravity and causal dynamical triangulations, thereby providing a more comprehensive understanding of spacetime and information in extreme gravitational scenarios. We discuss potential experimental tests and observations that could support or refute the conjecture and address how it preserves causality and fundamental physical laws.
 
 ---
 
@@ -50,11 +48,15 @@ Quantum gravity seeks to unify QM and GR, providing a consistent description of 
 
 While the Avila-Conjecture builds upon existing frameworks like ER=EPR and holographic entanglement entropy, it offers several novel insights:
 
-- **Information Accessibility:** Our conjecture proposes a mechanism for indirect access to black hole interior information without violating causality or the no-communication theorem.
+- **Specific Mechanism for Information Access:** The conjecture proposes a specific mechanism for indirect access to black hole interior information without violating causality or the no-communication theorem.
 
-- **Unified Quantum Gravity Framework:** We present a cohesive mathematical framework that combines quantum field theory in curved spacetime, entanglement entropy, and concepts from quantum gravity—including loop quantum gravity and causal dynamical triangulations—offering a more comprehensive approach to the black hole information paradox.
+- **Resolution Without Violating Fundamental Principles:** It provides a potential resolution to the black hole information paradox that doesn't require violating fundamental principles of physics.
 
-- **Quantum Error Correction Perspective:** Our conjecture introduces a new interpretation of black hole dynamics in terms of quantum error correction, providing a fresh perspective on information preservation during black hole evaporation.
+- **Reconciliation of QM and GR:** It suggests a way to reconcile quantum mechanics and general relativity in the context of black holes, addressing a longstanding challenge in theoretical physics.
+
+- **Unique Integration of Multiple Approaches:** By combining elements from quantum field theory in curved spacetime, entanglement entropy, the holographic principle, loop quantum gravity, and causal dynamical triangulations, the Avila-Conjecture addresses the information paradox in a unique way.
+
+- **Potentially Testable Predictions:** It proposes testable predictions, potentially bridging the gap between highly theoretical quantum gravity concepts and observable phenomena.
 
 ---
 
@@ -148,7 +150,7 @@ The **Page curve** describes how \( S \) evolves over time, initially increasing
 Compute \( \rho_B = \text{Tr}_A \left( |\Psi_{AB}\rangle \langle \Psi_{AB}| \right) \):
 
 \[
-\rho_B = \frac{1}{2} \left( |1\rangle_B \langle 1|_B + |0\rangle_B \langle 0|_B \right) = \frac{1}{2} I_B,
+\rho_B = \frac{1}{2} \left( |1\rangle_B \langle 1| + |0\rangle_B \langle 0| \right) = \frac{1}{2} I_B,
 \]
 
 where \( I_B \) is the identity operator in the Hilbert space of particle \( B \).
@@ -208,7 +210,7 @@ where \( U_{\text{total}}(t) \) is a unitary operator acting on the total Hilber
 
 **Information Encoding in Hawking Radiation:**
 
-The correlations between emitted Hawking radiation quanta carry information about the black hole's interior states. The mutual information \( I \) between different parts of the radiation is:
+The correlations between emitted Hawking radiation quanta carry information about the black hole's interior states. The mutual information \( I(A:B) \) between different parts of the radiation is:
 
 \[
 I(A:B) = S(A) + S(B) - S(A \cup B),
@@ -222,91 +224,67 @@ By explicitly calculating the entropy and mutual information, we show that the t
 
 ---
 
-### **6. Quantum Gravity Connections**
+### **6. Preservation of Causality and the No-Communication Theorem**
 
-#### **6.1. Loop Quantum Gravity (LQG)**
+#### **6.1. Avoiding Violations of the No-Communication Theorem**
 
-LQG is a non-perturbative and background-independent approach to quantum gravity. It quantizes spacetime itself, using spin networks to represent quantum states of the gravitational field.
+The no-communication theorem asserts that entanglement cannot be used for faster-than-light communication. In the context of the Avila-Conjecture:
+
+- **Entanglement Across the Event Horizon:** While particles \( A \) and \( B \) are entangled, any measurement on particle \( B \) cannot instantaneously transmit information about particle \( A \) or the black hole interior.
+
+- **Causal Structure Preservation:** The event horizon ensures that signals cannot propagate from inside to outside the black hole faster than light, preserving causality.
+
+#### **6.2. Thought Experiment Illustrating Causality Preservation**
+
+**Scenario:**
+
+An observer outside the black hole, Alice, measures particle \( B \). An observer inside the event horizon, Bob, has particle \( A \).
+
+- **Alice's Measurement:** Alice's measurement outcome is random and cannot reveal any information about Bob's particle \( A \) or the black hole's interior.
+
+- **No Influence on Bob:** Alice's actions cannot affect Bob's particle due to the causal separation imposed by the event horizon.
+
+- **Correlation Upon Comparison:** If hypothetically, the information from Bob could be compared with Alice's, the entanglement correlations would become apparent, but this comparison cannot occur due to the causal disconnection.
+
+#### **6.3. How the Conjecture Preserves Fundamental Principles**
+
+- **Unitarity:** The total evolution is unitary, ensuring information is conserved.
+
+- **Equivalence Principle:** The conjecture does not require modifications to spacetime at the event horizon, preserving the equivalence principle.
+
+- **Causality:** No information or influence propagates faster than light, maintaining causality.
+
+---
+
+### **7. Quantum Gravity Connections**
+
+#### **7.1. Loop Quantum Gravity (LQG)**
+
+LQG is a non-perturbative and background-independent approach to quantum gravity, quantizing spacetime itself using spin networks.
 
 **Connection to the Avila-Conjecture:**
 
 - **Discrete Structure of Spacetime:** The entanglement across the event horizon may be influenced by the discrete nature of spacetime in LQG.
-- **Black Hole Entropy:** LQG provides a microscopic explanation for black hole entropy, which aligns with the entanglement entropy calculations in our conjecture.
-- **Horizon States:** The states on the black hole horizon in LQG could be related to the entangled states in the Avila-Conjecture.
 
-#### **6.2. Causal Dynamical Triangulations (CDT)**
+- **Black Hole Entropy:** LQG provides a microscopic explanation for black hole entropy, aligning with our entanglement entropy calculations.
 
-CDT is an approach where spacetime is constructed by gluing together simplexes in a way that preserves causality.
+- **Horizon States:** The quantized area of the event horizon in LQG corresponds to the degrees of freedom involved in the entanglement.
+
+#### **7.2. Causal Dynamical Triangulations (CDT)**
+
+CDT constructs spacetime by gluing together simplices in a way that preserves causality.
 
 **Connection to the Avila-Conjecture:**
 
 - **Emergent Spacetime Geometry:** Our conjecture's idea of spacetime emerging from entanglement resonates with CDT's construction of spacetime from fundamental building blocks.
+
 - **Causal Structure:** The preservation of causality in CDT supports the no-communication aspect of our conjecture.
 
-#### **6.3. Deepening the Quantum Gravity Framework**
+#### **7.3. Deepening the Quantum Gravity Framework**
 
-By integrating these approaches, the Avila-Conjecture gains a broader foundation:
+- **Unified Picture:** Combining LQG and CDT concepts with our framework suggests a consistent picture of quantum gravity where information preservation is a natural consequence.
 
-- **Unified Picture:** Combining LQG and CDT concepts with our framework suggests a consistent picture of quantum gravity where information is preserved.
 - **Microstates and Entropy:** The counting of microstates in LQG can be connected to the entanglement entropy calculations, providing a statistical basis for black hole thermodynamics.
-
----
-
-### **7. Preservation of Unitarity and Information Encoding**
-
-#### **7.1. Total System Evolution**
-
-The evolution of the total system is governed by a unitary operator \( U(t) \):
-
-\[
-|\Psi_{\text{total}}(t)\rangle = U(t) |\Psi_{\text{total}}(0)\rangle.
-\]
-
-#### **7.2. Detailed Information Preservation Calculation**
-
-**Step 1: Initial State**
-
-Assume the black hole is entangled with its environment:
-
-\[
-|\Psi_{\text{total}}(0)\rangle = \sum_i c_i |i\rangle_{\text{BH}} \otimes |i\rangle_{\text{ext}}.
-\]
-
-**Step 2: Evolution Under Unitary Operator**
-
-The state evolves as:
-
-\[
-|\Psi_{\text{total}}(t)\rangle = U_{\text{BH}}(t) \otimes U_{\text{ext}}(t) |\Psi_{\text{total}}(0)\rangle.
-\]
-
-**Step 3: Reduced Density Matrix of the Radiation**
-
-\[
-\rho_{\text{rad}}(t) = \text{Tr}_{\text{BH}} \left( |\Psi_{\text{total}}(t)\rangle \langle \Psi_{\text{total}}(t)| \right).
-\]
-
-**Step 4: Entropy Calculation**
-
-Compute the von Neumann entropy \( S(\rho_{\text{rad}}(t)) \):
-
-\[
-S(\rho_{\text{rad}}(t)) = -\text{Tr} \left( \rho_{\text{rad}}(t) \log \rho_{\text{rad}}(t) \right).
-\]
-
-**Step 5: Correlation Functions**
-
-Calculate correlation functions between Hawking radiation particles:
-
-\[
-\langle \Psi_{\text{total}}(t) | O_{\text{rad}} O'_{\text{rad}} | \Psi_{\text{total}}(t) \rangle,
-\]
-
-where \( O_{\text{rad}} \) and \( O'_{\text{rad}} \) are observables acting on the radiation Hilbert space.
-
-**Result:**
-
-The non-trivial correlations demonstrate that information about the black hole's interior is encoded in the radiation, preserving unitarity.
 
 ---
 
@@ -314,66 +292,49 @@ The non-trivial correlations demonstrate that information about the black hole's
 
 #### **8.1. Potential Observational Signatures**
 
-- **Hawking Radiation Spectra:** Deviations from perfect thermality in Hawking radiation spectra may indicate information encoding as predicted by the Avila-Conjecture.
-- **Quantum Gravity Effects in Gravitational Waves:** Measurements of gravitational waves from black hole mergers could reveal quantum gravity effects consistent with our conjecture.
-- **Entanglement Entropy Measurements:** Although challenging, future technologies might allow indirect measurements of entanglement entropy in astrophysical processes.
+- **Hawking Radiation Spectra:** Detecting deviations from perfect thermality in Hawking radiation spectra may indicate information encoding as predicted by the Avila-Conjecture.
 
-#### **8.2. Analog Gravity Experiments**
+- **Gravitational Wave Observations:** Precise measurements of gravitational waves from black hole mergers could reveal quantum gravity effects consistent with our conjecture.
 
-- **Laboratory Simulations:** Using systems like Bose-Einstein condensates or optical fibers to simulate event horizons and Hawking radiation could test aspects of the conjecture.
-- **Observation of Entanglement Across Horizons:** Experiments designed to create analog horizons may allow observation of entanglement between particles across these horizons.
+#### **8.2. Feasibility of Experimental Tests**
 
-#### **8.3. Implications for Quantum Information Science**
+- **Current Limitations:** Direct observation of Hawking radiation from astrophysical black holes is beyond current technological capabilities due to the low temperature and weak signal.
 
-- **Quantum Communication Protocols:** Insights from the conjecture could inform protocols that exploit entanglement in curved spacetime.
-- **Testing No-Communication Theorem Limits:** Experiments could explore the boundaries of the no-communication theorem in extreme conditions.
+- **Analog Gravity Experiments:** Laboratory simulations using systems like Bose-Einstein condensates or optical fibers can create analog event horizons and Hawking radiation, allowing for controlled experiments.
 
----
+#### **8.3. Implications of Experimental Results**
 
-### **9. Limitations and Potential Criticisms**
+- **Positive Results:** Observations consistent with the conjecture would support the idea that information is preserved and accessible through entanglement across horizons, lending credence to quantum gravity theories that integrate entanglement.
 
-#### **9.1. Experimental Verifiability**
-
-The current lack of direct experimental testability is a limitation. While we propose potential observational signatures, the required precision and conditions are beyond current capabilities.
-
-#### **9.2. Compatibility with Firewall Paradox**
-
-Our conjecture needs to address the firewall paradox. Further work is required to reconcile the preservation of entanglement with the equivalence principle without invoking a firewall.
-
-#### **9.3. Generalization to Other Spacetimes**
-
-Extending the conjecture to rotating (Kerr) or charged (Reissner-Nordström) black holes is necessary. The differing horizons and causal structures may introduce new challenges.
-
-#### **9.4. Quantum Gravity Cut-off**
-
-Our semi-classical approach may not capture all quantum gravity effects, particularly near the Planck scale. A full quantum gravity theory may modify our conclusions.
+- **Negative Results:** Lack of observed effects could imply that alternative mechanisms are responsible for information preservation or that new physics is required.
 
 ---
 
-### **10. Discussion**
+### **9. Limitations and Future Directions**
 
-The Avila-Conjecture provides a novel perspective on black hole information preservation by leveraging quantum entanglement across event horizons. Our refined mathematical framework, deeper connections to quantum gravity approaches like loop quantum gravity and causal dynamical triangulations, and detailed information preservation calculations strengthen the conjecture.
+#### **9.1. Lack of a Full Quantum Gravity Theory**
 
-By proposing potential experimental implications, we aim to motivate future research that could support or refute the conjecture. Addressing the limitations and criticisms will be crucial for the conjecture's development and acceptance.
-**10. Discussion**
+- **Current Framework Limitations:** Our approach relies on semi-classical approximations and does not constitute a complete theory of quantum gravity.
 
-The **Avila-Conjecture** offers a novel perspective on the black hole information paradox by proposing a specific mechanism for indirect access to black hole interior information without violating causality or the no-communication theorem. This mechanism is significant for several reasons:
+- **Impact of Future Theoretical Developments:** Advancements in quantum gravity theories may refine or alter the conclusions drawn from the Avila-Conjecture, potentially providing a full description of spacetime at the Planck scale.
 
-- **Resolution Without Violating Fundamental Principles:** The conjecture provides a potential solution to the black hole information paradox that does not require violating fundamental principles of physics, such as causality or unitarity.
+#### **9.2. Experimental Challenges**
 
-- **Reconciliation of Quantum Mechanics and General Relativity:** It suggests a way to reconcile quantum mechanics and general relativity in the context of black holes, addressing a longstanding challenge in theoretical physics.
+- **Technological Constraints:** The feasibility of detecting Hawking radiation or quantum gravity effects remains limited by current technology.
 
-- **New Interpretation of Information Preservation:** The conjecture introduces a new interpretation of how information is preserved and potentially retrieved from black holes through quantum entanglement across the event horizon.
+- **Indirect Evidence:** We may need to rely on indirect observations or analog experiments to test aspects of the conjecture.
 
-- **Unique Integration of Multiple Approaches:** By combining elements from quantum field theory in curved spacetime, entanglement entropy, the holographic principle, loop quantum gravity, and causal dynamical triangulations, the Avila-Conjecture addresses the information paradox in a unique way.
+#### **9.3. Further Theoretical Work**
 
-- **Potentially Testable Predictions:** It proposes testable predictions, potentially bridging the gap between highly theoretical quantum gravity concepts and observable phenomena.
+- **Addressing the Firewall Paradox:** Additional research is required to reconcile the conjecture with the firewall paradox and ensure consistency with all aspects of black hole physics.
 
-To highlight the novelty of the Avila-Conjecture more clearly, we provide a comparison with other prominent approaches to the black hole information paradox.
+- **Extension to Other Spacetimes:** Generalizing the conjecture to rotating (Kerr) and charged (Reissner-Nordström) black holes and other spacetime geometries is necessary for a comprehensive theory.
+
+- **Integration with Quantum Gravity Theories:** Future developments in theories like string theory may provide new insights or require modifications to the conjecture.
 
 ---
 
-**11. Comparison with Other Approaches**
+### **10. Comparison with Other Approaches**
 
 | **Aspect** | **Avila-Conjecture** | **Firewall Proposal** | **ER=EPR Conjecture** | **Holographic Entanglement Entropy** |
 |---|---|---|---|---|
@@ -382,47 +343,31 @@ To highlight the novelty of the Avila-Conjecture more clearly, we provide a comp
 | **Integration of Quantum Gravity Approaches** | Combines QFT in curved spacetime, entanglement entropy, holographic principle, LQG, and CDT | Primarily a thought experiment highlighting inconsistencies | Relies on AdS/CFT correspondence and string theory concepts | Based on AdS/CFT correspondence and holography |
 | **Testable Predictions** | Suggests potential experimental implications through Hawking radiation correlations and analog gravity experiments | Largely theoretical, difficult to test experimentally | Theoretical framework, challenging to test directly | Indirectly supported by AdS/CFT correspondence |
 
-**11.1. Distinctive Features of the Avila-Conjecture**
+#### **10.1. Distinctive Features of the Avila-Conjecture**
 
-- **Mechanism of Indirect Access:** Unlike the firewall proposal, which introduces radical changes at the event horizon, the Avila-Conjecture maintains the smoothness of spacetime at the horizon by allowing information to be encoded in quantum entanglement without violating causality or the no-communication theorem.
+- **Mechanism of Indirect Access:** Allows for information retrieval without altering the known structure of spacetime or introducing singularities at the horizon.
 
-- **Preservation of Fundamental Principles:** The conjecture adheres strictly to established physical laws, including unitarity and the equivalence principle, which some other proposals challenge.
+- **Preservation of Principles:** Maintains adherence to established physical laws, unlike some proposals that require modifications to fundamental principles.
 
-- **Unified Framework:** By integrating multiple approaches from quantum gravity and quantum information theory, the conjecture provides a comprehensive framework that addresses the black hole information paradox from several angles.
-
-- **Experimental Accessibility:** While acknowledging current technological limitations, the conjecture outlines potential experimental tests, bridging the gap between theoretical predictions and observable phenomena.
-
-**11.2. Refinement of Information Preservation Argument**
-
-The key novelty lies in demonstrating how unitarity is preserved and how information is encoded in Hawking radiation correlations:
-
-- **Unitary Evolution of the Total System:** The total system, including the black hole and its environment, evolves unitarily. This ensures that information is not lost but redistributed within the system.
-
-- **Encoding in Correlations:** Information about the black hole's interior is preserved in the entanglement between particles across the event horizon and can, in principle, be reconstructed from the correlations in Hawking radiation.
-
-- **Consistency with Quantum Gravity Approaches:** By aligning with loop quantum gravity and causal dynamical triangulations, the conjecture supports a discrete spacetime structure where information preservation is a natural consequence.
-
-**11.3. Potential Experimental Tests**
-
-- **Hawking Radiation Spectrum:** Detecting deviations from perfect thermality in the Hawking radiation spectrum could provide evidence supporting the conjecture.
-
-- **Analog Gravity Experiments:** Laboratory simulations of black hole analogs might allow for the observation of entanglement across horizons and test aspects of the conjecture.
-
-- **Gravitational Wave Observations:** Precise measurements of gravitational waves from black hole mergers could reveal quantum effects predicted by the conjecture.
+- **Experimental Accessibility:** Provides avenues for potential experimental tests, which could validate or challenge the conjecture.
 
 ---
 
-By comparing the Avila-Conjecture with other prominent theories and emphasizing its unique mechanism for information access, we underscore its novelty and potential impact on resolving the black hole information paradox. This comparison also highlights how the conjecture preserves fundamental physical principles while providing a testable framework, setting it apart from other proposals.
-
----
-
-**12. Conclusion**
+### **11. Conclusion**
 
 The Avila-Conjecture offers a fresh perspective on the black hole information paradox by proposing a mechanism that allows for the indirect retrieval of information from within a black hole without violating causality or the no-communication theorem. By integrating concepts from quantum field theory in curved spacetime, entanglement entropy, the holographic principle, and approaches from quantum gravity like loop quantum gravity and causal dynamical triangulations, the conjecture presents a unified framework that maintains unitarity and adheres to established physical laws.
 
 Our detailed calculations demonstrate how information is preserved and encoded in Hawking radiation correlations, providing a potential pathway to reconcile quantum mechanics and general relativity in the context of black holes. While experimental verification remains challenging, the conjecture suggests avenues for future observations and experiments that could support or refute its claims.
 
-By addressing limitations and comparing the Avila-Conjecture with other prominent theories, we have highlighted its unique contributions and potential to advance our understanding of fundamental physics. We invite the scientific community to engage with this conjecture, further develop its theoretical framework, and explore its implications for quantum gravity and cosmology.
+By addressing limitations, discussing the preservation of causality, and comparing the Avila-Conjecture with other prominent theories, we have highlighted its unique contributions and potential to advance our understanding of fundamental physics. Future theoretical developments in quantum gravity may further refine the conjecture or provide new insights into the nature of spacetime and information.
+
+We invite the scientific community to engage with this conjecture, further develop its theoretical framework, and explore its implications for quantum gravity and cosmology.
+
+---
+
+### **Acknowledgments**
+
+I would like to thank my sons, Benjamin and Leonardo, for their inspiration and support in pursuing this idea.
 
 ---
 
@@ -498,8 +443,8 @@ The conjecture proposes that information remains encoded near singularities thro
 
 ---
 
-**Acknowledgments**
+**Note to the Reader**
 
-I would like to thank my sons, Benjamin and Leonardo, their Mom Marcela, and my Mom Maruja, for their inspiration and suppor.
+This work is a preliminary step towards a deeper understanding of the interplay between quantum mechanics and general relativity. Feedback and collaboration are welcomed to develop the Avila-Conjecture further.
 
-Authorship Proof 17092024 with emails 1914 61f2b8bf75b4e12f d2ca6a8b49c28e9f
+Authorship Proof 17092024 with emails 1914 61f2b8bf75b4e12f d2ca6a8b49c28e9f d390a94d19342d48
