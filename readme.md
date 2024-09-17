@@ -1,6 +1,7 @@
 # The Avila-Conjecture: Quantum Entanglement Across Black Hole Event Horizons and Information Preservation
 
 **Author:** F.B. Avila-Rencoret
+fba13@ic.ac.uk, favila@uc.cl
 Imperial College London, UK
 
 ---
@@ -500,3 +501,5 @@ The conjecture proposes that information remains encoded near singularities thro
 **Acknowledgments**
 
 I would like to thank my sons, Benjamin and Leonardo, their Mom Marcela, and my Mom Maruja, for their inspiration and suppor.
+
+Authorship Proof 17092024 with emails 1914 61f2b8bf75b4e12f d2ca6a8b49c28e9f
